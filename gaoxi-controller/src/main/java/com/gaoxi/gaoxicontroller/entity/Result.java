@@ -7,6 +7,6 @@ package com.gaoxi.gaoxicontroller.entity;
 public class Result {
     public static String ok(){
         return "success";
-        
+
     }
 }

@@ -22,6 +22,8 @@ public class UserControllerImpl implements UserController {
         // 登录鉴权
         UserEntity userEntity = userService.login(loginReq);
         return "success";
+
+
     }
 }
 
